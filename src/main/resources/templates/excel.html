@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Arquivo Excel</title>
+</head>
+<body>
+	<h2>Insira o arquivo excel</h2>
+	<form th:action="@{/api/excel/leitura}" method="POST" enctype="multipart/form-data">
+		<label for="title">Arquivo:</label> 
+		<input type="file" name="arquivoExcel"></input><br /> 
+		<br /><input type="submit"></input>
+	</form>
+</body>
+</html>
