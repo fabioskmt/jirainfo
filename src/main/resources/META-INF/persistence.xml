@@ -7,9 +7,6 @@
 
 	<persistence-unit name="jirainfo">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-		<class>com.everis.jirainformation.model.Etapa</class>
-		<class>com.everis.jirainformation.model.Subtask</class>
-		<class>com.everis.jirainformation.model.Item</class>
 		<properties>
 			<property name="hibernate.connection.username" value="root" />
 			<property name="hibernate.connection.password" value="root" />
